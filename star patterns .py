@@ -1,25 +1,22 @@
 """
 STAR PATTERN IN PYTHON
 """
-n = int(input("Enter a number: "))
+n = 5
 for i in range(n):
     for j in range(n):
         print("*", end="  ")
     print("")
 
 
-""""""
-RIGHT ANGLE TRIANGE PATTERN
-"""
 
-n = int(input("Enter a number: "))
+
+n = 5
 for i in range(n):
     for j in range(i+1):
         print("*", end=" ")
     print("")
 
-DECREASING TRIANGLE PATTERN
-"""
+
 n = 5
 for i in range(n):
     for j in range(i,n):
